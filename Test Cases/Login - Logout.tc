@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Login - Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f13b9fe7-80ab-450a-a907-8fcbaa678d74</testCaseGuid>
+   <variable>
+      <defaultValue>'dendihagriawan1805@gmail.com'</defaultValue>
+      <description></description>
+      <id>449f18ef-2d74-4852-a216-99fa73520108</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

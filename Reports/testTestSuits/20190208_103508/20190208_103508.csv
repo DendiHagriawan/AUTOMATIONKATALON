@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testTestSuits,,,2019-02-08 10:35:20,2019-02-08 10:35:35,14.356s,PASSED
+,,,,,,
+Test Cases/Search Flight,,,2019-02-08 10:35:21,2019-02-08 10:35:35,13.998s,PASSED
+Start listener action : sampleBeforeTestCase,,,2019-02-08 10:35:21,2019-02-08 10:35:21,0.018s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", ""/Users/harrygumbilar/Documents/TestingWEBAutomation/src/Dependency/chromedriver"")",,,2019-02-08 10:35:21,2019-02-08 10:35:21,0.002s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,2019-02-08 10:35:21,2019-02-08 10:35:22,1.723s,PASSED
+"out.println(""*** login ***"")",,,2019-02-08 10:35:22,2019-02-08 10:35:23,0.015s,PASSED
+"driver.get(""https://www.tiket.com"")",,,2019-02-08 10:35:23,2019-02-08 10:35:27,4.383s,PASSED
+"driver.findElement(By.xpath(""//*[@href='/pesawat']""))",,,2019-02-08 10:35:27,2019-02-08 10:35:27,0.029s,PASSED
+"xpath(""//*[@href='/pesawat']"")).click()",,,2019-02-08 10:35:27,2019-02-08 10:35:29,2.454s,PASSED
+Thread.sleep(5000),,,2019-02-08 10:35:29,2019-02-08 10:35:34,5.009s,PASSED
+driver.close(),,,2019-02-08 10:35:34,2019-02-08 10:35:35,0.168s,PASSED
+Start listener action : sampleAfterTestCase,,,2019-02-08 10:35:35,2019-02-08 10:35:35,0.003s,PASSED

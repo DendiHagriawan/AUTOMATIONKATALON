@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+testTestSuits,,,2019-02-08 11:10:29,2019-02-08 11:11:06,37.060s,PASSED
+,,,,,,
+Test Cases/Search Flight,,,2019-02-08 11:10:30,2019-02-08 11:10:44,13.929s,PASSED
+Start listener action : sampleBeforeTestCase,,,2019-02-08 11:10:30,2019-02-08 11:10:30,0.008s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", ""/Users/harrygumbilar/Documents/TestingWEBAutomation/src/Dependency/chromedriver"")",,,2019-02-08 11:10:30,2019-02-08 11:10:30,0.002s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,2019-02-08 11:10:30,2019-02-08 11:10:32,2.013s,PASSED
+"out.println(""*** login ***"")",,,2019-02-08 11:10:32,2019-02-08 11:10:32,0.011s,PASSED
+"driver.get(""https://www.tiket.com"")",,,2019-02-08 11:10:32,2019-02-08 11:10:37,4.696s,PASSED
+"driver.findElement(By.xpath(""//*[@href='/pesawat']""))",,,2019-02-08 11:10:37,2019-02-08 11:10:37,0.026s,PASSED
+"xpath(""//*[@href='/pesawat']"")).click()",,,2019-02-08 11:10:37,2019-02-08 11:10:38,1.780s,PASSED
+Thread.sleep(5000),,,2019-02-08 11:10:38,2019-02-08 11:10:43,5.012s,PASSED
+driver.close(),,,2019-02-08 11:10:43,2019-02-08 11:10:44,0.179s,PASSED
+Start listener action : sampleAfterTestCase,,,2019-02-08 11:10:44,2019-02-08 11:10:44,0.003s,PASSED
+,,,,,,
+Test Cases/Login_Logout,,,2019-02-08 11:10:44,2019-02-08 11:11:06,22.761s,PASSED
+Start listener action : sampleBeforeTestCase,,,2019-02-08 11:10:44,2019-02-08 11:10:44,0.003s,PASSED
+"System.setProperty(""webdriver.chrome.driver"", ""/Users/harrygumbilar/Documents/TestingWEBAutomation/src/Dependency/chromedriver"")",,,2019-02-08 11:10:44,2019-02-08 11:10:44,0.001s,PASSED
+driver = new org.openqa.selenium.chrome.ChromeDriver(),,,2019-02-08 11:10:44,2019-02-08 11:10:45,1.152s,PASSED
+"out.println(""*** login ***"")",,,2019-02-08 11:10:45,2019-02-08 11:10:45,0.000s,PASSED
+"driver.get(""https://www.tiket.com"")",,,2019-02-08 11:10:45,2019-02-08 11:10:49,3.622s,PASSED
+"xpath(""//*[@class='login-btn']"")).click()",,,2019-02-08 11:10:49,2019-02-08 11:10:53,4.061s,PASSED
+"driver.findElement(By.xpath(""//*[text()='Log In ke tiket.com']""))",,,2019-02-08 11:10:53,2019-02-08 11:10:53,0.028s,PASSED
+"driver.findElement(By.xpath(""//*[@ class='form-control mtr-input'][@name='email']""))",,,2019-02-08 11:10:53,2019-02-08 11:10:53,0.012s,PASSED
+"xpath(""//*[@ class='form-control mtr-input'][@name='email']"")).sendKeys(""harry.gumbilar@tiket.com"")",,,2019-02-08 11:10:53,2019-02-08 11:10:53,0.198s,PASSED
+"xpath(""//*[@ class='form-control mtr-input'][@name='password']"")).sendKeys(""Annis@171925"")",,,2019-02-08 11:10:53,2019-02-08 11:10:53,0.134s,PASSED
+"driver.findElement(By.xpath(""//*[@id='js-btn-login']""))",,,2019-02-08 11:10:53,2019-02-08 11:10:53,0.017s,PASSED
+"xpath(""//*[@id='js-btn-login']"")).click()",,,2019-02-08 11:10:53,2019-02-08 11:10:58,5.135s,PASSED
+"driver.findElement(By.xpath(""//*[text()='Harry']""))",,,2019-02-08 11:10:58,2019-02-08 11:10:58,0.100s,PASSED
+"xpath(""//*[@class='tixicon-down']"")).click()",,,2019-02-08 11:10:58,2019-02-08 11:10:58,0.096s,PASSED
+"driver.findElement(By.xpath(""//*[@data-value='logout']""))",,,2019-02-08 11:10:58,2019-02-08 11:10:58,0.024s,PASSED
+"xpath(""//*[@data-value='logout']"")).click()",,,2019-02-08 11:10:58,2019-02-08 11:11:01,2.847s,PASSED
+"driver.findElement(By.xpath(""//*[@href='/login']""))",,,2019-02-08 11:11:01,2019-02-08 11:11:01,0.029s,PASSED
+Thread.sleep(5000),,,2019-02-08 11:11:01,2019-02-08 11:11:06,5.004s,PASSED
+driver.close(),,,2019-02-08 11:11:06,2019-02-08 11:11:06,0.174s,PASSED
+Start listener action : sampleAfterTestCase,,,2019-02-08 11:11:06,2019-02-08 11:11:06,0.007s,PASSED
